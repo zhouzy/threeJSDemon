@@ -47,8 +47,6 @@ function init() {
         });
         scene.add(gltf.scene);
 
-
-
         camera.lookAt(scene.position);
     }, undefined, function ( e ) {
         console.error( e );
