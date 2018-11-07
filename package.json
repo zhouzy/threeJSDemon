@@ -2,8 +2,10 @@
     "name": "threeJSDemon",
     "version": "0.0.1",
     "dependencies": {
+        "orbit-controls": "^1.2.4",
         "three-gltf-loader": "^1.98.0",
-        "three-obj-loader": "^1.1.3"
+        "three-obj-loader": "^1.1.3",
+        "three-orbitcontrols": "^2.96.3"
     },
     "scripts": {
         "dev": "webpack --watch --profile --mode development --progress --colors --display-error-details --config webpack.config.js"
